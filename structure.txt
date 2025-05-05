@@ -1,0 +1,28 @@
+.
+├── .gitmodules
+├── App
+│   ├── .devcontainer
+│   │   ├── Dockerfile
+│   │   └── devcontainer.json
+│   ├── .gitignore
+│   ├── .vscode
+│   │   └── settings.json
+│   ├── generate-diagram.sh
+│   ├── generate-documentation.sh
+│   ├── requirements.txt
+│   ├── run-unit-tests-and-coverage.sh
+│   ├── src
+│   │   ├── requirements.txt
+│   │   ├── sstream_setup.sh
+│   │   └── test.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   └── test_calculator.py
+│   └── utils
+│       ├── __init__.py
+│       └── calculator.py
+├── README.md
+├── setup.sh
+└── structure.txt
+
+7 directories, 19 files
