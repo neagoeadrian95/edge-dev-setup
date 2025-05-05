@@ -6,6 +6,19 @@ Linux environment for edge computing using OpenCV and MQTT.
 
 Using Raspberry Pi OS Lite 64-bit.
 
+### ⚙️ Automated setup script
+
+To automatically install and configure the environment:
+
+```bash
+git clone https://github.com/neagoeadrian95/edge-dev-setup.git
+cd edge-dev-setup
+chmod +x setup.sh
+./setup.sh
+```
+
+> The script installs all required packages, configures Docker permissions, and optionally enables remote MQTT access.
+
 ### 🔧 Install base packages
 
 ```bash
