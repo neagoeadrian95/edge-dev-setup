@@ -11,7 +11,7 @@ Using Raspberry Pi OS Lite 64-bit.
 To automatically install and configure the environment:
 
 ```bash
-git clone git clone https://github.com/neagoeadrian95/edge-dev-setup.git
+git clone git@github.com:neagoeadrian95/edge-dev-setup.git
 cd edge-dev-setup
 chmod +x setup.sh
 ./setup.sh
